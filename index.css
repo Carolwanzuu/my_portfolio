@@ -1,44 +1,73 @@
-body {
-    background-image: url("https://images.pexels.com/photos/209726/pexels-photo-209726.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500");
-    width : 100%;
-    height : 100%;
-    background-repeat :no-repeat;
-    background-size: cover;
-}
-ul {
-    list-style-type: none;
-    display: flex;
-    float: right;
-    padding: 15px;
-    
-    
-
+.start{
+    margin :auto;
+    border-style: dotted;
+    display:inline-block;
+    background-color: darkturquoise;
+    font-size :20px;
+    color :floralwhite;
+    padding: 0% 5% 5% 50%;
 
 }
-li a {
-   text-decoration: none;
-   padding: 10px;
-  
-   background-color: rgb(201, 198, 50);
-}
- nav{
-    margin: 0;
-    padding: 0;
-    
- }
-  /* .align {
-     display :flex;
-     float : right;
- }*/
- .p1 {
-    display :flex;
+
+/*.me1 {
+    display: flexbox;
+    flex-direction: row;
+    align-items: flex-end;
+    justify-content: right;
+
+}*/
+.p1 {
+    align-items: flex-end;
+    padding : 2%;
     float : right;
-     margin : 5%;
-     color:darksalmon;
-     font-size : 20px;
-     font-family: serif;
-   
-     display: flex;
-     justify-content:left;
-     text-align :end
- }
+    font-size: 20px;
+
+}
+.p2 {
+    align-items: flex-end;
+    padding : 2%;
+    float : right;
+}
+img {
+    display :flex;
+    margin :-25% 5% -15% -70%;
+    align-items: left;
+    justify-content: left;
+    height:65vh;
+    width:70%;
+    transform: translate(-700px, 150px);
+    margin-left: 150px;
+    box-shadow: 5px 10px rgb(204, 49, 152);
+
+}
+.port{
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    margin: -20% 5% 5% 30%;
+    font-size: 30px;
+    text-align:justify;
+    text-decoration: teal;
+    color:darkcyan;
+}
+.about {
+    display : block;
+    border : 1px solid black;
+    background-color :lightcoral
+}
+.hobbies {
+    display : block;
+    text-align : center;
+}
+.skills {
+    text-align : center;
+}
+.p3 {
+    font-size : 50px;
+    color : white;
+    text-align : center;
+}
+.projects {
+    background-color: rgb(217, 236, 132);
+    margin : 0%;
+    border-style: groove;
+    padding : 5%;
+}
