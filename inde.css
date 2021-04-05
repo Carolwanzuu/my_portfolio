@@ -1,14 +1,11 @@
 .start{
-    display:flex;
-    justify-content: right;
-    align-items: right;
-    flex-direction:column;
-    margin :0%;
+    margin :auto;
     border-style: dotted;
-    padding: 0% 5% 5% 50%;
+    display:inline-block;
     background-color: darkturquoise;
     font-size :20px;
     color :floralwhite;
+    padding: 0% 5% 5% 50%;
 
 }
 
@@ -33,15 +30,23 @@
 }
 img {
     display :flex;
-    margin :0% 5% 5% 5%;
+    margin :-25% 5% -15% -70%;
     align-items: left;
     justify-content: left;
-    height:80vh;
+    height:65vh;
     width:70%;
     transform: translate(-700px, 150px);
     margin-left: 150px;
     box-shadow: 5px 10px rgb(204, 49, 152);
 
+}
+.port{
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    margin: -20% 5% 5% 30%;
+    font-size: 30px;
+    text-align:justify;
+    text-decoration: teal;
+    color:darkcyan;
 }
 .about {
     display : block;
